@@ -11,7 +11,7 @@ public class CashbackHackServiceTest {
         int expected = 1;
         int actual = cashbackHackService.remain(amount);
 
-        org.testng.Assert.assertEquals(actual, expected);
+        assertEquals(actual, expected);
     }
 
     @org.testng.annotations.Test
@@ -21,7 +21,7 @@ public class CashbackHackServiceTest {
         int expected = 0;
         int actual = cashbackHackService.remain(amount);
 
-        org.testng.Assert.assertEquals(actual, expected);
+        assertEquals(actual, expected);
     }
 
 }
